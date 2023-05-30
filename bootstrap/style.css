@@ -1,0 +1,70 @@
+
+.mega-grid-2{
+    display: flex;
+    
+}
+.col-2{
+    height: 70vh;
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    padding: 2rem;
+    background-color: aqua;
+    width: 20rem;
+    transition: all 300ms;
+    z-index: 100;
+}
+.m-l-20rem{
+    margin-left: 20rem;
+}
+.table-ex{
+    width: calc(100vw - 20rem);
+}
+.hambar{
+    height: 3rem;
+    width: 3rem;
+    background-color: black;
+}
+.nav-ex{
+    position: relative;
+}
+.hamclose{
+    height: 2rem;
+    width: 2rem;
+    background-color: black;
+    visibility:hidden;
+}
+.card-ex{
+    margin-left: 20rem;
+    width: calc(100vw - 20rem);
+}
+@media (max-width:850px){
+    .side-close{
+        transform: translateX(-100%);
+        transition: all 300ms;
+    }
+    .side-open{
+        transform: translateX(0%);
+    }
+    .m-l-20rem{
+        margin-left: 0;
+    }
+    .table-ex{
+        width: 100%;
+    }
+    .card-ex{
+        margin-left: 0;
+        width: 100%;
+    }
+    .container-ex{
+        margin: 1% 5%;
+    }
+    .hamclose{
+        visibility: visible;
+    }
+
+
+}
