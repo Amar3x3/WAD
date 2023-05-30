@@ -1,0 +1,54 @@
+.container{
+    width: 80%;
+    margin: 1% 10%;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: #dddddd;
+    
+}
+#myInput{
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    padding: 0.4rem;
+}
+.abs-btm{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.grid-2{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: aliceblue;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.c1{
+    padding: 1rem;
+}
+img{
+    width: 16rem;
+}
+.c2{
+    padding: 1rem;
+}
+
+@media (max-width:450px){
+    img{
+        width: 11rem;
+    }
+}
